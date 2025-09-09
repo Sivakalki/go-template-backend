@@ -1,0 +1,80 @@
+# =========================
+# Node / React / Tailwind
+# =========================
+node_modules/
+build/
+dist/
+.cache/
+.next/
+out/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Tailwind JIT cache
+.tailwindcss-cache/
+
+# =========================
+# Go Backend
+# =========================
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Build output
+/bin/
+/obj/
+/*.log
+
+# Go workspace files
+*.swp
+
+# If you use vendoring
+/vendor/
+
+# =========================
+# Mongo (if DB files exist inside repo)
+# =========================
+/data/db/
+/data/log/
+
+# =========================
+# OS / IDE files
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# =========================
+# Environment & secrets
+# =========================
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# =========================
+# Misc
+# =========================
+coverage/
+*.tgz
+*.tar.gz
+*.zip
+*.tmp

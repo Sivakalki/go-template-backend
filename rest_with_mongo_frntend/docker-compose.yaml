@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  frontend:
+    build: .
+    container_name: react-frontend-dev
+    ports:
+      - "5173:5173"   # Vite dev server
+    volumes:
+      - .:/app        # mount current folder to /app
+      - /app/node_modules
+    environment:
+      - CHOKIDAR_USEPOLLING=true
